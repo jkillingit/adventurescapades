@@ -1,8 +1,15 @@
 
 body {
-    font-family: 'Spartan', sans-serif;
+  /* Google Font/Bootstrap Override 1 */  
+  font-family: 'Spartan', sans-serif;
+  /* Bootstrap Override 2 */
+  background-color: #dae0e5
   }
-  
+  /* Bootstrap Override 3 */  
+  h3 {
+  text-decoration: underline
+  }
+
   .jumbotron-standard {
     background-attachment: fixed;
     background-image: url(jumbotron.jpg);
