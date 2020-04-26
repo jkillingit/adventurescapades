@@ -19,36 +19,33 @@
     <!-- My own CSS -->
     <link rel="stylesheet" href="styles.css">
 
-    <title>Hello, KIEI-451!</title>
+    <title>Adventurescapades</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <!-- https://getbootstrap.com/docs/4.4/components/navbar -->
-    <!-- I'm using the "navbar-light" color scheme, and a custom background color, defined in my styles.css -->
-    <!-- Because the navbar has a "container" inside, it has gutters (spacing) on the left and right -->
-    <!-- https://getbootstrap.com/docs/4.4/components/navbar/#containers -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="K_RGB.png" class="d-inline-block align-middle">
-          KIEI-451
+            Adventurescapades
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="dark-blue-text">
+                <i class="fas fa-bars fa-1x">
+
+                </i>
+            </span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <!-- The "ml-auto" means - set the left margin as high as you can, automatically -->
-          <!-- This causes the links to move to the right -->
-          <!-- https://getbootstrap.com/docs/4.4/utilities/flex/#auto-margins -->
-          <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="pricing.html">Pricing</a>
-          </div>
-          <div class="navbar-nav ml-auto">
-            <a class="btn btn-outline-info" href="contact.html">Contact Us</a>
-          </div>
-        </div>
-      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="porto.html">Most Recent Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutcontact.html">About the Author & Contact</a>
+          </li>
+        </ul>
     </nav>
 
     <hr class="my-4">
