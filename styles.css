@@ -12,7 +12,7 @@ body {
     background-image: url(jumbotron.jpg);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto auto;
     color: white;
     text-shadow: 2px 2px 2px black;
     min-height: 20em
@@ -23,7 +23,7 @@ body {
     background-image: url(jumbo-porto.jpg);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto auto;
     color: white;
     text-shadow: 2px 2px 2px black;
     min-height: 20em
