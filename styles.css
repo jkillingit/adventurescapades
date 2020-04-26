@@ -7,7 +7,7 @@ body {
     font-family: 'Spartan', sans-serif;
   }
   
-  .jumbotron-homepage {
+  .jumbotron-standard {
     background-attachment: fixed;
     background-image: url(jumbotron.jpg);
     background-position: top;
