@@ -1,56 +1,34 @@
-/* Typography */
+
 body {
-    /* Everything is Raleway */
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Spartan', sans-serif;
   }
   /* Except we're using more specific rules to override the headlines */
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', serif;
-  }
-  /* And the "logo" */
-  .navbar-brand {
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-  }
-  .navbar-brand img {
-    width: 30px;
-    height: 30px;
-  }
-  .navbar-light .navbar-brand {
-    color: red;
+    font-family: 'Spartan', sans-serif;
   }
   
-  /* Navbar background color */
-  .navbar {
-    background-color: white;
-  }
-  
-  /* Jumbotron background and font styles */
-  /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
-  .jumbotron {
-    /* Background */
+  .jumbotron-homepage {
     background-attachment: fixed;
-    background-image: url(workspace.jpg);
+    background-image: url(jumbotron.jpg);
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
-  
-    /* Fonts */
-    /* The text-shadow helps the white text stand out better on a darker background */
+    background-size: 100% auto;
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
+    min-height: 20em
   }
   
-  /* The background color of the "testimonials" part */
-  .testimonials {
-    background-color: #eeeeee;
+  .jumbotron-porto {
+    background-attachment: fixed;
+    background-image: url(jumbo-porto.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    min-height: 20em
   }
-  
-  /* The size of the testimonials images */
-  .media img {
-    width: 64px;
-    height: 64px;
-  }
-  
+
   /* The pricing */
   .pricing {
     background-color: #181818;
