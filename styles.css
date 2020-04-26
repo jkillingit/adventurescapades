@@ -2,10 +2,6 @@
 body {
     font-family: 'Spartan', sans-serif;
   }
-  /* Except we're using more specific rules to override the headlines */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Spartan', sans-serif;
-  }
   
   .jumbotron-standard {
     background-attachment: fixed;
@@ -27,18 +23,4 @@ body {
     color: white;
     text-shadow: 2px 2px 2px black;
     min-height: 20em
-  }
-
-  /* The pricing */
-  .pricing {
-    background-color: #181818;
-  }
-  .pricing h1 {
-    font-family: 'Permanent Marker', cursive;
-    color: #cccccc;
-  }
-  
-  /* The footer */
-  .footer img {
-    width: 100px;
   }
